@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Function scope example</title>
+
+  <style>
+    #a-div{
+      border:1px solid black;
+      padding-left:1em;
+    }
+  </style>
+</head>
+
+
+  <script>
+    let x = 1;
+
+    function a() {
+      let y = 2;
+      output(z);
+    }
+
+    function b() {
+      let z = 3;
+      output(y);
+    }
+
+
+
+    function output(value) {
+      const para = document.createElement('p');
+      document.body.appendChild(para);
+      para.textContent = 'Value: ' + value;
+    }
+
+
+
+   
+
+  </script>
+</body>
+</html>

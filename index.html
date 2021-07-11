@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Number guessing game</h1>
+        <p id = "description">We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+
+            <!-- <form action = "#">
+                <label for = "guess">Enter a guess:</label>
+                <input id = "guess" type = "number" min = "1" max = "100">
+
+                <input id = "submit" type = "submit" value = "Submit guess" >
+            <button>Submit guess</button>
+            </form> -->
+        
+        
+
+        <label for = "guess">Enter a guess:</label>
+        <input id = "guess" type = "number">
+
+        <input id = "submit" type = "submit" value = "Submit guess" >
+        <p id = "input-error" class = "invisible"> Please enter an integer value between the limits</p>
+      
+        <div id = "info" class = "invisible">
+            <p id  = "turns">Turns: </p>
+            <p id = "guesses">Previous guesses:</p>
+            <p id = "banner"> Wrong! </p>
+            <p id = "feedback">Last guess was too low!</p>
+            <button id = "new-game" class = "invisible"> Start new game </button>
+        </div>
+  
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: rgb(252, 239, 222);
+    text-align: center;
+    padding-top:1vh;
+}
+
+.container{
+    background-color:rgb(243, 220, 189);
+    width:60%;
+    margin:0 auto;
+    min-height:30vh;
+    padding: 1rem;
+}
+
+.visible{
+    visibility: initial;
+}
+
+.invisible{
+    display:none;
+}
+
+#banner{
+    background-color: rgb(231, 33, 33);
+    /*background-color: rgb(133, 206, 24);*/
+    color:white;
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 0.2rem 0;
+}
+
+.correct{
+    background-color: rgb(133, 206, 24);
+}
+
+#info{
+    
+}
+
+#input-error{
+    color:orangered;
+}
+
+#new-game{
+    margin-top:1rem;
+}
+
